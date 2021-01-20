@@ -1,11 +1,5 @@
-function run() {
-    const input = document.getElementById("input").value;
-    const output = document.getElementById("output");
-    let out = "";
-/**/
-    // write your code here
-    // out = input + 5;
-
-/**/
-    output.innerText = out;
+function arrayCheck(input){
+    return Array.isArray(input);
 }
+console.log(arrayCheck("f")); // false
+console.log(arrayCheck(["f"])); // true
