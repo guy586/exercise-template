@@ -1,4 +1,4 @@
-
+// the function remove. 'null', '0', '""', 'false', 'undefined' and 'NaN' values from an array.
 function removeUn(arr) {
     let n = [];
     for (let i = 0 ; i < arr.length ; i++) {
